@@ -1,8 +1,10 @@
 #home {
-	/*background: #ffc107;*/
+	background: #ffc107;
 	color: white;
 }
-
+#myNav {
+	background: #ffc107;
+}
 .caixa {
 	padding: 60px 0;
 	border-bottom: 1px solid #e5e5e5;
@@ -11,3 +13,10 @@
 footer p a {
 	margin: 5px 15px;
 }
+
+#mudarCorFundor {
+	position: absolute;
+	bottom: 0px;
+	z-index: -1;
+}
+  

@@ -19,8 +19,8 @@
   </head>
   <body>
     
-    <header id="myHeader"><!-- inicio Cabecalho -->
-      <nav class="navbar navbar-expand-sm navbar-light bg-warning" >
+    <header id="myHeader" ><!-- inicio Cabecalho -->
+      <nav id="myNav" class="navbar navbar-expand-sm navbar-light fixed-top">
         <div class="container">
           
           <a href="#" class="navbar-brand">
@@ -54,8 +54,9 @@
         </div>
       </nav>
     </header><!--/fim Cabecalho -->
-
-    <section id="home" class="btn-danger"><!-- Início seção home -->
+    
+    </div>
+    <section id="home" class=""><!-- Início seção home -->
       <div class="container">
         <div class="row">
           <div class="col-md-6 d-flex"><!-- Textos da seção -->
@@ -85,17 +86,17 @@
             </div>
           </div><!--/fim textos da seção -->
           <div class="col-md-6 d-none d-md-block">
-            <img src="img/capa-mulher.png">
-            <div class="btn-group-vertical">
+            <img class="pt-5" src="img/capa-mulher.png">
+            <div id="mudarCorFundo" class="btn btn-group-vertical">
               <button onclick="chanceColor('#dc3545')" type="button" class="btn btn-danger">Red</button>
               <button onclick="chanceColor('#28a745')" type="button" class="btn btn-success">Green</button>
               <button onclick="chanceColor('#007bff')" type="button" class="btn btn-primary">Blue</button>
-            </div>
-          </div>
+            </div>            
+          </div>           
         </div>
       </div>
     </section><!--/fim seção home -->
-
+    
     <section class="caixa"><!--/Início seção saiba -->
       <div class="container">
         <div class="row">
